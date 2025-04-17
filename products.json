@@ -1,0 +1,3674 @@
+[
+  {
+    "code": "AMP100A",
+    "scientificName": "Anubias Pot Combo Offer  (Medium) 100 Nos\n(Anubias Nana 20 + Gold 20 + Glabra 20 + Dragon Claw 20 + Petite 20 = 100 Pots)\n",
+    "rate": 13500.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "AMP100B",
+    "scientificName": "Anubias Pot Combo Offer  (Medium) 200 Nos\n(Anubias Nana 40 + Gold 40 + Glabra 40 + Dragon Claw 40 + Petite 40 = 200 Pots)\n",
+    "rate": 24000.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "B5PB2",
+    "scientificName": "Anubias nana Pot (Medium)  (Bulk 100+)",
+    "rate": 120.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B5PB3",
+    "scientificName": "Anubias nana Pot (Medium)  (Bulk 200+)",
+    "rate": 105.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "B6PB2",
+    "scientificName": "Anubias nana 'Gold' Pot(Medium)  (Bulk 100+)",
+    "rate": 120.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B6PB3",
+    "scientificName": "Anubias nana 'Gold' Pot (Medium)  (Bulk 200+)",
+    "rate": 90.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "B18PB2",
+    "scientificName": "Anubias barteri var. glabra Pot (Medium)  (Bulk 100+)",
+    "rate": 120.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B18PB3",
+    "scientificName": "Anubias barteri var. glabra Pot (Medium)  (Bulk 200+)",
+    "rate": 90.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "B20PB",
+    "scientificName": "Anubias 'Petite' Pot(Medium)  (Bulk 100+)",
+    "rate": 210.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B20PB2",
+    "scientificName": "Anubias 'Petite' Pot (Medium)  (Bulk 200+)",
+    "rate": 180.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "B26PB",
+    "scientificName": "Anubias 'Dragon Claw' - Pot (Medium)  (Bulk 100+)",
+    "rate": 180.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B26PB2",
+    "scientificName": "Anubias 'Dragon Claw' - Pot (Medium)  (Bulk 200+)",
+    "rate": 150.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "MXCPB1",
+    "scientificName": "Cryptocoryne Pot Combo Offer 10 Nos\n(Crypt. Axelrodi, lucens, wendtii 'Brown, wendtii 'green' - 5 Varieties x 2 Pots = 10 Pots)\n",
+    "rate": 600.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "MXCPB2",
+    "scientificName": "Cryptocoryne Pot Combo Offer 50 Nos\n(Crypt. Axelrodi, lucens, wendtii 'Brown, wendtii 'green' - 5 Varieties x 10 Pots = 50 Pots)\n",
+    "rate": 2250.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "MXCPB3",
+    "scientificName": "Cryptocoryne Pot Combo Offer 100 Nos  \n(Crypt. Axelrodi, lucens, Tropica, wendtii 'Brown, wendtii 'green' - 5 Varieties x 20 Pots = 100 Pots)\n",
+    "rate": 3750.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "CDB1",
+    "scientificName": "Coco Den (Bulk 5+)",
+    "rate": 300.0,
+    "minQty": "5 Nos"
+  },
+  {
+    "code": "CDB",
+    "scientificName": "Coco Den (Bulk 10+)",
+    "rate": 240.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "CAB",
+    "scientificName": "Coco Arch (Bulk 5+)",
+    "rate": 180.0,
+    "minQty": "5 Nos"
+  },
+  {
+    "code": "CAB2",
+    "scientificName": "Coco Arch (Bulk 10+)",
+    "rate": 150.0,
+    "minQty": "10 nos"
+  },
+  {
+    "code": "A49CSB",
+    "scientificName": "Bucephalandra on Coco Shell (Buk 5+)",
+    "rate": 240.0,
+    "minQty": "5 Nos"
+  },
+  {
+    "code": "A49CSB2",
+    "scientificName": "Bucephalandra on Coco Shell (Bulk 10+)",
+    "rate": 210.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "A49CS",
+    "scientificName": "Bucephalandra on Coco Shell",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "CA",
+    "scientificName": "Bucephalandra 'Pygmy' on Coco Arch",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "CD",
+    "scientificName": "Coco Den",
+    "rate": 450.0,
+    "minQty": 3
+  },
+  {
+    "code": "B18WB",
+    "scientificName": "Anubias barteri var. glabra  on  Wabi Kusa balls",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "A49WB",
+    "scientificName": "Bucephalandra 'Pygmy' on  Wabi Kusa mini balls",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "B5WB",
+    "scientificName": "Anubias nana on  Wabi Kusa balls",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "B6WB",
+    "scientificName": "Anubias nana 'Gold'  on  Wabi Kusa balls",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "PDWS",
+    "scientificName": "Plant Décor Wood (Small Size)",
+    "rate": 750.0,
+    "minQty": 1
+  },
+  {
+    "code": "PDWM",
+    "scientificName": "Plant Décor Wood (Medium Size)",
+    "rate": 1100.0,
+    "minQty": 1
+  },
+  {
+    "code": "B5C",
+    "scientificName": "Anubias nana -Cup",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B6C",
+    "scientificName": "Anubias nana 'Gold'  - Cup",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B20C",
+    "scientificName": "Anubias 'Petite' -Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "B21C",
+    "scientificName": "Anubias barteri 'Coin Leaf' -Cup",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B18C",
+    "scientificName": "Anubias barteri var. glabra -Cup",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B24C",
+    "scientificName": "Anubias gracilis (small)  - Cup",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "A49C",
+    "scientificName": "Bucephalandra 'Pygmy' - Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "D71C",
+    "scientificName": "Cryptocoryne axelrodi - Cup",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "D72C",
+    "scientificName": "Cryptocoryne lucens - Cup",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "D58C",
+    "scientificName": "Cryptocoryne wendtii 'Tropica' - Cup ",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "D68C",
+    "scientificName": "Cryptocoryne wendtii 'Brown'  - Cup",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "D69C",
+    "scientificName": "Cryptocoryne wendtii 'Green'  - Cup",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "D70C",
+    "scientificName": "Cryptocoryne wendtii 'Pink'  - Cup",
+    "rate": 300.0,
+    "minQty": 3
+  },
+  {
+    "code": "B26P",
+    "scientificName": "Anubias 'Dragon Claw' - Pot",
+    "rate": 360.0,
+    "minQty": 3
+  },
+  {
+    "code": "B27P",
+    "scientificName": "Anubias Nana 'Long Wavy' -  Pot",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "B3P",
+    "scientificName": "Anubias Coffefolia",
+    "rate": 350.0,
+    "minQty": 3
+  },
+  {
+    "code": "B4",
+    "scientificName": "Anubias Lanceolata - Loose",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B25",
+    "scientificName": "Anubias 'Butterfly' - Loose/Pot",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "B24SP",
+    "scientificName": "Anubias gracilis (small) - Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B24P",
+    "scientificName": "Anubias gracilis (Medium) - Pot",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "B24PB",
+    "scientificName": "Anubias gracilis (Medium) - [Bulk 10+ pot]",
+    "rate": 120.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "B5P",
+    "scientificName": "Anubias nana Pot (Small Size)",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "B5MP",
+    "scientificName": "Anubias nana - Medium Pot",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B6P",
+    "scientificName": "Anubias nana 'Gold'  - Pot (Small Size)",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "B6MP",
+    "scientificName": "Anubias nana 'Gold'  - Medium Pot",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B18P",
+    "scientificName": "Anubias barteri var. glabra - Pot (Small Size)",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "B18MP",
+    "scientificName": "Anubias barteri var. glabra - Medium Pot",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B21P",
+    "scientificName": "Anubias barteri 'Coin Leaf' - Pot (Small Size)",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "B21MP",
+    "scientificName": "Anubias barteri 'Coin Leaf' - Medium Pot",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B20P",
+    "scientificName": "Anubias 'Petite' - Pot",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "A49P",
+    "scientificName": "Bucephalandra 'Pygmy' - Pot",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "MIXP03",
+    "scientificName": "Assorted Plants Pot",
+    "rate": 75.0,
+    "minQty": "3 Nos"
+  },
+  {
+    "code": "MIXP03B",
+    "scientificName": "Assorted Plants Pot [Bulk 50+]",
+    "rate": 51.0,
+    "minQty": "50 Nos"
+  },
+  {
+    "code": "MIXP03B1",
+    "scientificName": "Assorted Plants Pot [Bulk 100+]",
+    "rate": 42.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "D53TC",
+    "scientificName": "Aglaonima Simplex - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C86TC",
+    "scientificName": "Alternanthera reineckii 'mini' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C87TC",
+    "scientificName": "Alternanthera reineckii 'Rosanervig' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C7TC",
+    "scientificName": "Bacopa monnieri 'Green' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C125TC",
+    "scientificName": "Bacopa monnieri 'Platinum' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C117TC",
+    "scientificName": "Bacopa salzmannii 'Purple' var SG. - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A49TC",
+    "scientificName": "Bucephalandra 'Pygmy' - Tissue Culture Cup",
+    "rate": 600.0,
+    "minQty": 3
+  },
+  {
+    "code": "A51TC",
+    "scientificName": "Bucephalandra sp. 'White' - Tissue Culture Cup",
+    "rate": 600.0,
+    "minQty": 3
+  },
+  {
+    "code": "D71TC",
+    "scientificName": "Cryptocoryne axelrodi - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D80TC",
+    "scientificName": "Cryptocoryne beckettii - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D85TC",
+    "scientificName": "Cryptocoryne crispatula var. 'tonkinensis' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D72TC",
+    "scientificName": "Cryptocoryne lucens - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D81TC ",
+    "scientificName": "Cryptocoryne Nurii - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D57TC",
+    "scientificName": "Cryptocoryne parva - Tissue Culture Cup",
+    "rate": 210.0,
+    "minQty": 3
+  },
+  {
+    "code": "D10TC",
+    "scientificName": "Cryptocoryne pontederiifolia - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D75TC",
+    "scientificName": "Cryptocoryne Pygmi - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D83TC",
+    "scientificName": "Cryptocoryne sivadasanii - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D82TC",
+    "scientificName": "Cryptocoryne spiralis 'jwala' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D9TC",
+    "scientificName": "Cryptocoryne spiralis 'Tiger'- Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D11TC",
+    "scientificName": "Cryptocoryne wendtii - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D68TC",
+    "scientificName": "Cryptocoryne wendtii 'Brown'  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D77TC",
+    "scientificName": "Cryptocoryne Wendtii Gecko - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D69TC",
+    "scientificName": "Cryptocoryne wendtii 'Green'  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D76TC",
+    "scientificName": "Cryptocoryne wendtii  'long' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D70TC",
+    "scientificName": "Cryptocoryne wendtii 'Pink'  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D79TC",
+    "scientificName": "Cryptocoryne wendtii 'Sreepadma Sindoor'  - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "D58TC",
+    "scientificName": "Cryptocoryne wendtii 'Tropica'  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D86TC",
+    "scientificName": "Cryptocoryne willisii 'Narrow' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C115TC",
+    "scientificName": "Cuphea anagalloidea - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "E2TC",
+    "scientificName": "Drosera adelae  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "E1TC",
+    "scientificName": "Drosera spatulata - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D56TC",
+    "scientificName": "Echinodorus 'Fancy twist' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A53TC",
+    "scientificName": "Eleocharis acicularis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D74TC",
+    "scientificName": "Eleocharis montevidensis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A8TC",
+    "scientificName": "Eleocharis Parvula - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D28TC",
+    "scientificName": "Eleocharis vivipara - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A41TC",
+    "scientificName": "Eriocaulon Quinquangulare - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "A12TC",
+    "scientificName": "Glossostigma elatinoides - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A58TC",
+    "scientificName": "Glossostigma elatinoides 'Platinum' - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "C121TC",
+    "scientificName": "Gratiola viscidula - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A4TC",
+    "scientificName": "Helanthium bolivianum Quadricostatus - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A5TC",
+    "scientificName": "Helanthium tenellum 'Broad leaf' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR1TC",
+    "scientificName": "Helanthium tenellum 'Micro' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A15TC",
+    "scientificName": "Hemianthus callitrichoides 'Cuba' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A54TC",
+    "scientificName": "Hemianthus callitrichoides 'Cuba White' - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "A17TC",
+    "scientificName": "Hemianthus micranthemoides - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A60TC",
+    "scientificName": "Hemianthus micranthemoides 'White' - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR5TC",
+    "scientificName": "Hydrocotyle tripartita  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A52TC",
+    "scientificName": "Hydrocotyle tripartita 'Mini' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C124TC",
+    "scientificName": "Hygrophila Lancea 'Araguaia' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C110TC",
+    "scientificName": "Hygrophila pinnatifida 'Roseus' - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "C31TC",
+    "scientificName": "Hygrophila pinnatifida 'UK' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C123TC",
+    "scientificName": "Hygrophila sp. chai - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "D78TC",
+    "scientificName": "Lagenandra keralensis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A21TC",
+    "scientificName": "Lilaeopsis brasiliensis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR8TC",
+    "scientificName": "Limnobium laevigatum - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C35TC",
+    "scientificName": "Limnophila aquatica sp. 'Dwarf' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C108TC",
+    "scientificName": "Limnophila aromatica 'Mini' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A40TC",
+    "scientificName": "Lobelia cardinalis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C79TC",
+    "scientificName": "Ludwigia repens - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C48TC",
+    "scientificName": "Mayaca fluvitalis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR4TC",
+    "scientificName": "Micranthemum 'Monte Carlo' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A59TC",
+    "scientificName": "Microcarpea minima merrill  - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C73TC",
+    "scientificName": "Myriophyllum mattogrossense - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "FP4TC",
+    "scientificName": "Phyllanthus fluitans - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C54TC",
+    "scientificName": "Pogostemon eructus - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A39TC",
+    "scientificName": "Pogostemon helferi - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A56TC",
+    "scientificName": "Pogostemon helferi 'Marble ' - Tissue Culture Cup",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "C78TC",
+    "scientificName": "Pogostemon stellatus 'Dassen' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C76TC",
+    "scientificName": "Proserpinaca palustris - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A50TC",
+    "scientificName": "Ranunculus inundatus - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A27TC",
+    "scientificName": "Riccia fluitans - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C58TC",
+    "scientificName": "Rotala macrandra  'Mini butterfly' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C119TC",
+    "scientificName": "Rotala macrandra 'Bangladesh' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C99TC",
+    "scientificName": "Rotala macrandra 'Compacta' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C98TC",
+    "scientificName": "Rotala macrandra 'Mini gold' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR9TC",
+    "scientificName": "Rotala Macrandra 'Narrow leaf' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C63TC",
+    "scientificName": "Rotala nanjenshan - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B126TC",
+    "scientificName": "Rotala ramosior 'Florida' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C122TC",
+    "scientificName": "Rotala Rotundifolia ‘Wayanad’ - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C113TC",
+    "scientificName": "Rotala rotundifolia 'Assam' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C100TC",
+    "scientificName": "Rotala rotundifolia 'Big Bear' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C116TC",
+    "scientificName": "Rotala rotundifolia 'Blood red' var SG. - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C91TC",
+    "scientificName": "Rotala rotundifolia 'Ceylon' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C59TC",
+    "scientificName": "Rotala rotundifolia 'Green' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR10TC",
+    "scientificName": "Rotala rotundifolia 'HRA' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C5TC",
+    "scientificName": "Rotala sp. 'Bonsai' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C61TC",
+    "scientificName": "Rotala wallichii - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A30TC",
+    "scientificName": "Staurogyne repens - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A22TC",
+    "scientificName": "Taxiphyllum 'Flame' - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "C65TC",
+    "scientificName": "Tonina fluviatilis - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A32TC",
+    "scientificName": "Utricularia graminifolia - Tissue Culture Cup",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "D71P",
+    "scientificName": "Cryptocoryne axelrodi - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D71PB",
+    "scientificName": "Cryptocoryne axelrodi - Pot  - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "D72P",
+    "scientificName": "Cryptocoryne lucens - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D72PB",
+    "scientificName": "Cryptocoryne lucens - Pot - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "D58P",
+    "scientificName": "Cryptocoryne wendtii 'Tropica' - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D58PB",
+    "scientificName": "Cryptocoryne wendtii 'Tropica' - Pot  - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "D68P",
+    "scientificName": "Cryptocoryne wendtii 'Brown'  - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D68PB",
+    "scientificName": "Cryptocoryne wendtii 'Brown'  - Pot  - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "D69P",
+    "scientificName": "Cryptocoryne wendtii 'Green'  - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D69PB",
+    "scientificName": "Cryptocoryne wendtii 'Green'  - Pot  - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "D73P",
+    "scientificName": "Lagnendra meeboldii ‘Red Round’ - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D73PB",
+    "scientificName": "Lagnendra meeboldii ‘Red Round’ - Pot - [Bulk 10+ pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "SPB1",
+    "scientificName": "Submersed pot plants (Assorted 10+ nos) ",
+    "rate": 72.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "SPB2",
+    "scientificName": "Submersed pot plants (Assorted 50+ nos) ",
+    "rate": 60.0,
+    "minQty": "50 Nos"
+  },
+  {
+    "code": "SPB3",
+    "scientificName": "Submersed pot plants (Assorted 100+ nos) ",
+    "rate": 51.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "SPB4",
+    "scientificName": "Submersed pot plants (Assorted 200+ nos) ",
+    "rate": 42.0,
+    "minQty": "200 Nos"
+  },
+  {
+    "code": "MXPB",
+    "scientificName": "Mixed pot plants (Assorted 10+ nos) ",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "MXPB1",
+    "scientificName": "Mixed pot plants (Assorted 50+ nos) ",
+    "rate": 48.0,
+    "minQty": "50 Nos"
+  },
+  {
+    "code": "MXPB2",
+    "scientificName": "Mixed pot plants (Assorted 100+ nos) ",
+    "rate": 37.5,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "MXPB3",
+    "scientificName": "Mixed pot plants (Assorted 300+ nos) ",
+    "rate": 33.0,
+    "minQty": "300 Nos"
+  },
+  {
+    "code": "B7",
+    "scientificName": "Bolbitis heteroclita Loose",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "B15P",
+    "scientificName": "Microsorum pteropus 'Green Gnome' on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B12P",
+    "scientificName": "Microsorum pteropus 'Java Fern' on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B14P",
+    "scientificName": "Microsorum pteropus 'Wrinkled leaf' on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B13P",
+    "scientificName": "Microsorum pteropus 'Philippine' on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B23P",
+    "scientificName": "Bolbitis heteroclita \"difformis\" - on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B11P",
+    "scientificName": "Microsorum pteropus 'Staghorn fern' on Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "B9",
+    "scientificName": "Ceratopteris sp. China",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "B9B",
+    "scientificName": "Ceratopteris sp. China [Bulk 100 pack]",
+    "rate": 750.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "B8",
+    "scientificName": "Ceratopteris thalictroides ",
+    "rate": 9.0,
+    "minQty": 10
+  },
+  {
+    "code": "B10",
+    "scientificName": "Marsilea  sp. fern -Giant",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "MXFPB1",
+    "scientificName": "Mixed Fern Pot Plants (Assorted 50+ nos)",
+    "rate": 90.0,
+    "minQty": "50 Nos"
+  },
+  {
+    "code": "MXFPB2",
+    "scientificName": "Mixed Fern Pot Plants (Assorted 100+ nos)",
+    "rate": 80.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "B7SP",
+    "scientificName": "Bolbitis heteroclita on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A15SP",
+    "scientificName": "Hemianthus cuba on Mesh",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR4SP",
+    "scientificName": "Micranthemum 'monte carlo' on Mesh",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "JR5SP",
+    "scientificName": "Hydrocotyle tripartita 'Honda' on Mesh",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "A8SP",
+    "scientificName": "Eleocharis parvula on Mesh",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "A25SP",
+    "scientificName": "Monosolenium tenerum-Pellia on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A48SP",
+    "scientificName": "Crepidomanes malabaricum on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B15SP",
+    "scientificName": "Microsorum pteropus 'Green Gnome' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B12SP",
+    "scientificName": "Microsorum pteropus 'Java Fern' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B11SP",
+    "scientificName": "Microsorum pteropus 'Staghorn fern' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B13SP",
+    "scientificName": "Microsorum pteropus 'Philippine' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B16SP",
+    "scientificName": "Microsorum pteropus 'Trident' on Mesh",
+    "rate": 225.0,
+    "minQty": 3
+  },
+  {
+    "code": "B14SP",
+    "scientificName": "Microsorum pteropus 'Wrinkled leaf' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A33SP",
+    "scientificName": "Vesicularia dubyana -'Java moss' on Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A37SP",
+    "scientificName": "Fissidence crispulus - Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "A52SP",
+    "scientificName": "Hydrocotyle tripartita 'Mini' on Mesh",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "A22SP",
+    "scientificName": "Taxiphyllum 'Flame' - Mesh",
+    "rate": 165.0,
+    "minQty": 3
+  },
+  {
+    "code": "B5R",
+    "scientificName": "Anubias nana -Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B6R",
+    "scientificName": "Anubias nana 'Gold' on Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B18R",
+    "scientificName": "Anubias barteri var. glabra -Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B7R",
+    "scientificName": "Bolbitis heteroclita - Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B23R",
+    "scientificName": "Bolbitis heteroclita \"difformis\" - on Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A48R",
+    "scientificName": "Crepidomanes malabaricum -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A37R",
+    "scientificName": "Fissidence crispulus -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "C31R",
+    "scientificName": "Hygrophilla pinnatifida -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B12R",
+    "scientificName": "Microsorum pteropus  -- 'Java Fern' Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B12XLR",
+    "scientificName": "Microsorum pteropus -- 'Java Fern' -  XL Rock",
+    "rate": 210.0,
+    "minQty": 3
+  },
+  {
+    "code": "B15R",
+    "scientificName": "Microsorum pteropus 'Green Gnome' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B13R",
+    "scientificName": "Microsorum pteropus 'Philippine' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B11R",
+    "scientificName": "Microsorum pteropus 'Staghorn fern' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "B16R",
+    "scientificName": "Microsorum pteropus 'Trident '- Rock",
+    "rate": 240.0,
+    "minQty": 3
+  },
+  {
+    "code": "B14R",
+    "scientificName": "Microsorum pteropus 'Wrinkled leaf' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A25R",
+    "scientificName": "Monosolenium tenerum 'Pellia' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A55R",
+    "scientificName": "Riccardia chamedryfolia -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A33R",
+    "scientificName": "Vesicularia dubyana -'Java moss' - Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A22R",
+    "scientificName": "Taxiphyllum 'Flame' - Rock",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A45R",
+    "scientificName": "Vesicularia sp 'Mini Christmas moss' -Rock ",
+    "rate": 180.0,
+    "minQty": 3
+  },
+  {
+    "code": "A1",
+    "scientificName": "Blyxa japonica -Loose",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "A1B",
+    "scientificName": "Blyxa japonica [Bulk 100 pack]",
+    "rate": 1050.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "A4",
+    "scientificName": "Echinodorus grissibachia",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "A4B",
+    "scientificName": "Echinodorus grissibachia [Bulk 100 pack]",
+    "rate": 225.0,
+    "minQty": "1 Bulk"
+  },
+  {
+    "code": "A5",
+    "scientificName": "Echinodorus tennelus ",
+    "rate": 2.25,
+    "minQty": 50
+  },
+  {
+    "code": "A5B",
+    "scientificName": "Echinodorus tennelus [Bulk 100 pack]",
+    "rate": 187.5,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR1",
+    "scientificName": "Echinodorus tennelus 'micro'",
+    "rate": 3.0,
+    "minQty": 50
+  },
+  {
+    "code": "A6",
+    "scientificName": "Elatine triandra",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "A6B",
+    "scientificName": "Elatine triandra -Bunch ",
+    "rate": 75.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "A8B",
+    "scientificName": "Eleocharis parvula  [Bulk 10 pack]",
+    "rate": 1200.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A8",
+    "scientificName": "Eleocharis parvula -Bunch ",
+    "rate": 150.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "A8P",
+    "scientificName": "Eleocharis parvula -Pot ",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "A8PB",
+    "scientificName": "Eleocharis parvula -Pot [Bulk 10 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR2B",
+    "scientificName": "Eleocharis parvula 'Japanese' [Bulk 10 pack]",
+    "rate": 1875.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR2",
+    "scientificName": "Eleocharis parvula 'Japanese' -Bunch",
+    "rate": 225.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "JR2P",
+    "scientificName": "Eleocharis parvula 'Japanese' -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "JR2PB",
+    "scientificName": "Eleocharis parvula 'Japanese' -Pot [Bulk 10 pack] ",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A10",
+    "scientificName": "Eriocaulon breviscapum",
+    "rate": 30.0,
+    "minQty": 5
+  },
+  {
+    "code": "A10P",
+    "scientificName": "Eriocaulon breviscapum -Pot",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "A11",
+    "scientificName": "Eriocaulon sp. parviflorum",
+    "rate": 60.0,
+    "minQty": 5
+  },
+  {
+    "code": "A12",
+    "scientificName": "Glossostigma elatinoides -Bunch",
+    "rate": 150.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "A12B",
+    "scientificName": "Glossostigma elatinoides -Bunch [Bulk 10 pack] ",
+    "rate": 1050.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A12M",
+    "scientificName": "Glossostigma elatinoides -Mat",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "A15P",
+    "scientificName": "Hemianthus cuba  --pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "A15PB",
+    "scientificName": "Hemianthus callitrichoides 'Cuba' [Bulk 10 pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A15M",
+    "scientificName": "Hemianthus callitrichoides 'Cuba' -Mat (4 x 5 inch)",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "A15S",
+    "scientificName": "Hemianthus callitrichoides 'Cuba' -Piece (2 sq.inch)",
+    "rate": 45.0,
+    "minQty": 10
+  },
+  {
+    "code": "A17",
+    "scientificName": "Hemianthus micranthemoides (HM)",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "A19 ",
+    "scientificName": "Hemianthus umbrosum",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "JR5",
+    "scientificName": "Hydrocotyle tripartita 'Honda'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "JR5B",
+    "scientificName": "Hydrocotyle tripartita 'Honda' [Bulk 100 pack]",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR5P",
+    "scientificName": "Hydrocotyle tripartita  'Honda' -Pot ",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "JR5PB",
+    "scientificName": "Hydrocotyle tripartita 'Honda' [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A52",
+    "scientificName": "Hydrocotyle tripartita 'Mini'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "A52B",
+    "scientificName": "Hydrocotyle tripartita 'Mini' [Bulk 100+ pack]",
+    "rate": 3.0,
+    "minQty": "100 Nos"
+  },
+  {
+    "code": "A52P",
+    "scientificName": "Hydrocotyle tripartita  'Mini' -Pot ",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "A52PB",
+    "scientificName": "Hydrocotyle tripartita 'Mini' [Bulk 10+ Pot]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "A21",
+    "scientificName": "Lilaeopsis brasiliensis -Bunch",
+    "rate": 150.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "A21B",
+    "scientificName": "Lilaeopsis brasiliensis [Bulk 10 pack] ",
+    "rate": 1125.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A23",
+    "scientificName": "Marsilea hirsuta",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "A23B",
+    "scientificName": "Marsilea hirsuta [Bulk 100 pack]",
+    "rate": 450.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR4P",
+    "scientificName": "Micranthemum 'monte carlo' -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "JR4PB",
+    "scientificName": "Micranthemum 'monte carlo' [Bulk 10 pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR3",
+    "scientificName": "Micranthemum 'monte carlo' -Mat (3 x 3 inch)",
+    "rate": 225.0,
+    "minQty": 1
+  },
+  {
+    "code": "JR4",
+    "scientificName": "Micranthemum 'monte carlo' -Mat (5 x 4 inch)",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "A2",
+    "scientificName": "Microcarpaea minima",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "A39",
+    "scientificName": "Pogostemon helferi",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "A39P",
+    "scientificName": "Pogostemon helferi -Pot",
+    "rate": 150.0,
+    "minQty": 1
+  },
+  {
+    "code": "A50P",
+    "scientificName": "Ranunculus inundatus - Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "A50PB",
+    "scientificName": "Ranunculus inundatus - Pot  [Bulk 10+ pack]",
+    "rate": 60.0,
+    "minQty": "10 Nos"
+  },
+  {
+    "code": "A50",
+    "scientificName": "Ranunculus inundatus - Loose Plants",
+    "rate": 9.0,
+    "minQty": 10
+  },
+  {
+    "code": "A28",
+    "scientificName": "Sagittaria subulata",
+    "rate": 2.25,
+    "minQty": 50
+  },
+  {
+    "code": "A28B",
+    "scientificName": "Sagittaria subulata [Bulk 100 pack]",
+    "rate": 187.5,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A30P",
+    "scientificName": "Staurogyne repens - Pot ",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "A30",
+    "scientificName": "Staurogyne repens",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "A47",
+    "scientificName": "Staurogyne sp. brown ",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "A47P",
+    "scientificName": "Staurogyne sp. brown - Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "A47PB",
+    "scientificName": "Staurogyne sp. brown [Bulk 10 pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A29",
+    "scientificName": "Staurogyne sp.'Porto velho'",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "A29B",
+    "scientificName": "Staurogyne sp.'Porto velho' [Bulk 100 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A29B2",
+    "scientificName": "Staurogyne sp.'Porto velho' [Bulk 200 pack]",
+    "rate": 1050.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A29P",
+    "scientificName": "Staurogyne sp.'Porto velho' - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "A29PB",
+    "scientificName": "Staurogyne sp.'Porto velho'  [Bulk 10 pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A25",
+    "scientificName": "Monosolenium tenerum 'Pellia' -Portion",
+    "rate": 150.0,
+    "minQty": 1
+  },
+  {
+    "code": "A25B",
+    "scientificName": "Monosolenium tenerum 'Pellia' [Bulk 10 pack]",
+    "rate": 900.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "A32",
+    "scientificName": "Utricularia graminifolia -Portion",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "A33",
+    "scientificName": "Vesicularia dubyana -'Java moss' -Portion",
+    "rate": 187.5,
+    "minQty": 1
+  },
+  {
+    "code": "A36",
+    "scientificName": "Vesicularia moutageni -'Christmas moss' -Portion",
+    "rate": 300.0,
+    "minQty": 1
+  },
+  {
+    "code": "C106",
+    "scientificName": "Acmella repens",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C1",
+    "scientificName": "Alternanthera reineckii   /   lilacina",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C86",
+    "scientificName": "Alternanthera reineckii 'mini'",
+    "rate": 9.0,
+    "minQty": 25
+  },
+  {
+    "code": "C87",
+    "scientificName": "Alternanthera reineckii 'rosanervig'",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "C2",
+    "scientificName": "Alternanthera sessilis-- Purple",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "JR6",
+    "scientificName": "Alternanthera sp. 'burgundy  leaves'",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C3",
+    "scientificName": "Ammannia gracilis ",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C4",
+    "scientificName": "Ammannia senegalensis- Hi red ",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "C4B",
+    "scientificName": "Ammannia senegalensis [Bulk 100 pack]",
+    "rate": 1125.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C5",
+    "scientificName": "Ammannia sp. 'bonsai'",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C8",
+    "scientificName": "Bacopa australius",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C8B",
+    "scientificName": "Bacopa australius [Bulk 100 pack]",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C6",
+    "scientificName": "Bacopa caroliniana",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C7",
+    "scientificName": "Bacopa monniera",
+    "rate": 2.25,
+    "minQty": 25
+  },
+  {
+    "code": "C7B",
+    "scientificName": "Bacopa monniera [Bulk 100 pack]",
+    "rate": 150.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C101",
+    "scientificName": "Cabomba belem",
+    "rate": 24.0,
+    "minQty": 10
+  },
+  {
+    "code": "C9",
+    "scientificName": "Cabomba caroliniana ",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "C9B",
+    "scientificName": "Cabomba caroliniana [Bulk 500 pack]",
+    "rate": 450.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C10",
+    "scientificName": "Cabomba piauhyensis ",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "C10B",
+    "scientificName": "Cabomba piauhyensis [Bulk 300 pack]",
+    "rate": 270.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C10B2",
+    "scientificName": "Cabomba piauhyensis [Bulk 600 pack]",
+    "rate": 450.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C11",
+    "scientificName": "Cardamine lyrata ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C11B",
+    "scientificName": "Cardamine lyrata [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C12",
+    "scientificName": "Ceratophllum demersum ",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "C115P",
+    "scientificName": "Cuphea anagalloidea Regular Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C115PB",
+    "scientificName": "Cuphea anagalloidea Regular Pot [Bulk 10+ Nos pack]",
+    "rate": 60.0,
+    "minQty": "10 nos"
+  },
+  {
+    "code": "SC115",
+    "scientificName": "Cuphea anagalloidea Submersed Pot",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "SC115B",
+    "scientificName": "Cuphea anagalloidea submersed Pot [Bulk 10+ Nos pack]",
+    "rate": 75.0,
+    "minQty": "10 nos"
+  },
+  {
+    "code": "A3",
+    "scientificName": "Didiplis diandra",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "A3B",
+    "scientificName": "Didiplis diandra [Bulk 100 pack]",
+    "rate": 225.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C13",
+    "scientificName": "Egeria najas",
+    "rate": 0.75,
+    "minQty": 50
+  },
+  {
+    "code": "C14",
+    "scientificName": "Eichhornia azurea",
+    "rate": 30.0,
+    "minQty": 3
+  },
+  {
+    "code": "C15",
+    "scientificName": "Eichhornia diversifolia",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C84",
+    "scientificName": "Floscopa cf. scandens",
+    "rate": 30.0,
+    "minQty": 10
+  },
+  {
+    "code": "C84B",
+    "scientificName": "Floscopa cf. scandens  [Bulk 25 pack]",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C16",
+    "scientificName": "Gymnocoronis spilanthoides",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "C67",
+    "scientificName": "Hemigraphis sp. Pink (Terrarium plant)",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C17",
+    "scientificName": "Heteranthera zosteraefolia ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C19",
+    "scientificName": "Hydrocotyle  sibthorpioides",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C20",
+    "scientificName": "Hydrocotyle  sibthorpioides Mat (5x4 inch)",
+    "rate": 450.0,
+    "minQty": "1 mat"
+  },
+  {
+    "code": "C18",
+    "scientificName": "Hydrocotyle leucocephala ",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C21",
+    "scientificName": "Hydrocotyle verticillata",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C21P",
+    "scientificName": "Hydrocotyle verticillata -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "C21PB",
+    "scientificName": "Hydrocotyle verticillata [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C29",
+    "scientificName": "Hygrophilla corymbosa 'Compacta' (Dwarf )",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C29B",
+    "scientificName": "Hygrophilla corymbosa 'Compacta' [Bulk 100 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C29P",
+    "scientificName": "Hyg:  corymbosa 'Compacta' -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "C29PB",
+    "scientificName": "Hyg:  corymbosa 'Compacta\" [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C22",
+    "scientificName": "Hygrophila balsamica",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "C23",
+    "scientificName": "Hygrophila difformis ",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C80",
+    "scientificName": "Hygrophila difformis 'Variegated'",
+    "rate": 11.25,
+    "minQty": 10
+  },
+  {
+    "code": "C24",
+    "scientificName": "Hygrophila polysperma -Green",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C25",
+    "scientificName": "Hygrophila polysperma 'rosanervig'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C25B",
+    "scientificName": "Hygrophila polysperma'rosanervig' [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C25B2",
+    "scientificName": "Hygrophila polysperma'rosanervig' [Bulk 200 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C109",
+    "scientificName": "Hygrophila Serpyllum  -Loose plants",
+    "rate": 12.0,
+    "minQty": 20
+  },
+  {
+    "code": "C109P",
+    "scientificName": "Hygrophila Serpyllum  -Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "C109PB",
+    "scientificName": "Hygrophila Serpyllum  -- [Bulk 10+ pot]",
+    "rate": 90.0,
+    "minQty": 10
+  },
+  {
+    "code": "JR7",
+    "scientificName": "Hygrophila sp. \"araguaia\" ",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "JR7B",
+    "scientificName": "Hygrophila sp.'araguaia' [Bulk 100 pack]",
+    "rate": 450.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C104",
+    "scientificName": "Hygrophila sp. \"Snake\"",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C26",
+    "scientificName": "Hygrophilla angustifolia",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C28",
+    "scientificName": "Hygrophilla corymbosa ",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C27",
+    "scientificName": "Hygrophilla guyanensis ",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C118P",
+    "scientificName": "Hygrophila odora -Pot",
+    "rate": 210.0,
+    "minQty": 1
+  },
+  {
+    "code": "C31",
+    "scientificName": "Hygrophilla pinnatifida",
+    "rate": 24.0,
+    "minQty": 3
+  },
+  {
+    "code": "C31B1",
+    "scientificName": "Hygrophilla pinnatifida -bulk pack of 10 nos",
+    "rate": 180.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C31B",
+    "scientificName": "Hygrophilla pinnatifida -bulk pack of 25 nos",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C31P",
+    "scientificName": "Hygrophilla pinnatifida -Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "C69",
+    "scientificName": "Hygrophilla sp. quadrivalvis 'Apple red'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C68",
+    "scientificName": "Hygrophilla sp. Quadrivalvis -Needle leaf",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C32",
+    "scientificName": "Hygrophilla sp.quadrivalvis -Broad leaf",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C103",
+    "scientificName": "Hyptis lorentziana",
+    "rate": 9.0,
+    "minQty": 20
+  },
+  {
+    "code": "C88",
+    "scientificName": "Juncus repens",
+    "rate": 12.0,
+    "minQty": 25
+  },
+  {
+    "code": "C88P",
+    "scientificName": "Juncus repens -Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C88PB",
+    "scientificName": "Juncus repens -Pot [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D60",
+    "scientificName": "Lilaeopsis macloviana",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "A46",
+    "scientificName": "Lilaeopsis mauritiana -Bunch",
+    "rate": 225.0,
+    "minQty": 1
+  },
+  {
+    "code": "A46P",
+    "scientificName": "Lilaeopsis mauritiana -Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "A46PB",
+    "scientificName": "Lilaeopsis mauritiana -[Bulk 10 pot]",
+    "rate": 600.0,
+    "minQty": 3
+  },
+  {
+    "code": "C37",
+    "scientificName": "Limnophila  aromatica/ hippuroides -Purple",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C37P",
+    "scientificName": "Limnophila  aromatica/ hippuroides -Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C37PB",
+    "scientificName": "Limnophila  aromatica/ hippuroides [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "C108",
+    "scientificName": "Limnophila Aromatica 'Mini' -Loose plants",
+    "rate": 12.0,
+    "minQty": 20
+  },
+  {
+    "code": "C108P",
+    "scientificName": "Limnophila Aromatica Mini -Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "C108PB",
+    "scientificName": "Limnophila Aromatica Mini -[Bulk 10+ Pot] ",
+    "rate": 900.0,
+    "minQty": 10
+  },
+  {
+    "code": "C35",
+    "scientificName": "Limnophila aquatica 'Dwarf'",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "C33",
+    "scientificName": "Limnophila aquatica -Giant green",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C33B",
+    "scientificName": "Limnophila aquatica -Giant green  [Bulk 200 pack]",
+    "rate": 240.0,
+    "minQty": 1
+  },
+  {
+    "code": "C33B2",
+    "scientificName": "Limnophila aquatica -Giant green [Bulk 500 pack]",
+    "rate": 525.0,
+    "minQty": 1
+  },
+  {
+    "code": "C34",
+    "scientificName": "Limnophila aquatica -Giant red",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C36",
+    "scientificName": "Limnophila aromatica- 'Green'",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C38",
+    "scientificName": "Limnophila indica 'Yellow'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C38B",
+    "scientificName": "Limnophila indica 'Yellow' [Bulk 200 pack]",
+    "rate": 750.0,
+    "minQty": 1
+  },
+  {
+    "code": "C72",
+    "scientificName": "Limnophila sp. rugosa",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "C70",
+    "scientificName": "Limnophila sp. 'slender'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C71",
+    "scientificName": "Limnophila sp.'shaggy'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C112",
+    "scientificName": "Limnophila 'Vietnam' - Loose",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C112B",
+    "scientificName": "Limnophila 'Vietnam' - [Bulk 100+ Nos pack]",
+    "rate": 3.0,
+    "minQty": 100
+  },
+  {
+    "code": "C112P",
+    "scientificName": "Limnophila 'Vietnam' - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C39",
+    "scientificName": "Lindernia dubia",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C40",
+    "scientificName": "Lindernia rotuundifolia -Green",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "JR12",
+    "scientificName": "Lindernia rotuundifolia -Variegated",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C41",
+    "scientificName": "Ludwigia arcuata- Dark red",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C92",
+    "scientificName": "Ludwigia atlantis 'Dark Orange'",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C94",
+    "scientificName": "Ludwigia brevipes",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C45",
+    "scientificName": "Ludwigia glandulosa (Lud: perennis)",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C45B",
+    "scientificName": "Ludwigia glandulosa -[Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C45B2",
+    "scientificName": "Ludwigia glandulosa -[Bulk 200 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C42",
+    "scientificName": "Ludwigia inclinata",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "JR13",
+    "scientificName": "Ludwigia inclinata var \"cuba\"",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C43",
+    "scientificName": "Ludwigia ovalis",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C43B",
+    "scientificName": "Ludwigia ovalis [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C43B2",
+    "scientificName": "Ludwigia ovalis [Bulk 200 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C44",
+    "scientificName": "Ludwigia palustris -Hi red",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C79",
+    "scientificName": "Ludwigia repens",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C93",
+    "scientificName": "Ludwigia senegalensis",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C90",
+    "scientificName": "Ludwigia sp. \"mini super red\" ",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C90P",
+    "scientificName": "Ludwigia sp. \"mini super red\" -Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C90PB",
+    "scientificName": "Ludwigia sp. \"mini super red\" -Pot   [Bulk 10]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C47",
+    "scientificName": "Lysimachia nummularia aura -Yellow",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C46",
+    "scientificName": "Lysimachia nummularia -Green",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C46B",
+    "scientificName": "Lysimachia nummularia -Green [Bulk 100 pack]",
+    "rate": 225.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C48",
+    "scientificName": "Mayaca fluviatilis",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "C49",
+    "scientificName": "Myriophyllum aquaticum -Mil foil",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C73",
+    "scientificName": "Myriophyllum mattogrossense",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C50",
+    "scientificName": "Myriophyllum scabratum -Green",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C51",
+    "scientificName": "Myriophyllum tuberculatum -Red",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C52",
+    "scientificName": "Najas indica",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C105",
+    "scientificName": "Najas roraima",
+    "rate": 18.0,
+    "minQty": 12
+  },
+  {
+    "code": "C54",
+    "scientificName": "Pogostemon eructus",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "C53",
+    "scientificName": "Pogostemon stellatus- Broad leaf -Purple",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "C78",
+    "scientificName": "Pogostemon stellatus 'dassen' -Purple",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "C89",
+    "scientificName": "Pogostemon stellatus 'Octopus'",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C89P",
+    "scientificName": "Pogostemon stellatus 'Octopus' -Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C89PB",
+    "scientificName": "Pogostemon stellatus 'Octopus' -Pot  [Bulk 10]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C96",
+    "scientificName": "Polygonium sp. 'Broad Leaf'",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "JR11",
+    "scientificName": "Polygonium sp. Pink",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C95",
+    "scientificName": "Polygonum sp. 'Sao paulo' -Red",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C55",
+    "scientificName": "Potamogeton gayi",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C74",
+    "scientificName": "Potamogeton octandrus -Green",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C75",
+    "scientificName": "Potamogeton octandrus -Red",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C76",
+    "scientificName": "Proserpinaca palustris",
+    "rate": 30.0,
+    "minQty": 10
+  },
+  {
+    "code": "C56",
+    "scientificName": "Rotala indica",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C58",
+    "scientificName": "Rotala macrandra  'mini butterfly'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C58B",
+    "scientificName": "Rotala macrandra 'mini butterfly' -[Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR9",
+    "scientificName": "Rotala macrandra 'Narrow leaf'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "JR9B",
+    "scientificName": "Rotala macrandra 'Narrow leaf' [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "JR9P",
+    "scientificName": "Rotala macrandra 'Narrow leaf' -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "JR9PB",
+    "scientificName": "Rotala macrandra 'Narrow leaf' [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C57",
+    "scientificName": "Rotala macrandra -Pink ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C57B",
+    "scientificName": "Rotala macrandra -Pink [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C57B2",
+    "scientificName": "Rotala macrandra -Pink [Bulk 200 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C63",
+    "scientificName": "Rotala nanjenshan",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C59",
+    "scientificName": "Rotala rotundifolia  'Green'",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "C60",
+    "scientificName": "Rotala rotundifolia 'Pink'",
+    "rate": 1.5,
+    "minQty": 25
+  },
+  {
+    "code": "JR10",
+    "scientificName": "Rotala rotundifolia \"Hi red\"",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C82",
+    "scientificName": "Rotala rotundifolia 'Orange'",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C83",
+    "scientificName": "Rotala rotundifolia 'Twilight'  ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C83P",
+    "scientificName": "Rotala rotundifolia 'Twilight' -Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C83PB",
+    "scientificName": "Rotala rotundifolia 'Twilight' -Pot [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "C113",
+    "scientificName": "Rotala rotundifolia 'Assam' Loose",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C113B",
+    "scientificName": "Rotala rotundifolia 'Assam' - [Bulk 100+ Nos pack]",
+    "rate": 3.0,
+    "minQty": 100
+  },
+  {
+    "code": "C113P",
+    "scientificName": "Rotala rotundifolia 'Assam' - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "C98",
+    "scientificName": "Rotala sp 'Mini Gold'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C99",
+    "scientificName": "Rotala sp.  'Compact'",
+    "rate": 15.0,
+    "minQty": 15
+  },
+  {
+    "code": "C100",
+    "scientificName": "Rotala sp. 'Big Bear'",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C91",
+    "scientificName": "Rotala sp. 'Ceylon'",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C97",
+    "scientificName": "Rotala sp. 'Spikey'",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C61",
+    "scientificName": "Rotala wallichii (Red)",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "C61B",
+    "scientificName": "Rotala wallichii -Red [Bulk 100 pack]",
+    "rate": 225.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C62",
+    "scientificName": "Rotala wallichii 'Mexicana' ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C62B",
+    "scientificName": "Rotala wallichii 'Mexicana' [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C62B2",
+    "scientificName": "Rotala wallichii 'Mexicana' [Bulk 200 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C81",
+    "scientificName": "Shinnersia rivularis 'weiss-grun'",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "C107",
+    "scientificName": "Staurogyne sp. 'Bihar'",
+    "rate": 24.0,
+    "minQty": 10
+  },
+  {
+    "code": "C85",
+    "scientificName": "Staurogyne spatulata ",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "C64",
+    "scientificName": "Syngonanthus sp. 'Belem' ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "C102",
+    "scientificName": "Syngonanthus sp. 'Lago Grande'",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "C102B",
+    "scientificName": "Syngonanthus sp. 'Lago Grande' [Bulk 100 pack]",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "C111",
+    "scientificName": "Staurogyne zeylanica - Loose",
+    "rate": 30.0,
+    "minQty": 5
+  },
+  {
+    "code": "C111B",
+    "scientificName": "Staurogyne zeylanica -  [Bulk 10+ Nos pack]",
+    "rate": 24.0,
+    "minQty": 10
+  },
+  {
+    "code": "C111P",
+    "scientificName": "Staurogyne zeylanica - Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "C65",
+    "scientificName": "Tonina fluviatilis",
+    "rate": 7.5,
+    "minQty": 25
+  },
+  {
+    "code": "C65B",
+    "scientificName": "Tonina fluviatilis [Bulk 100 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "C66",
+    "scientificName": "Utricularia sp \"vulgari \"",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "SC116",
+    "scientificName": "Rotala var. 'Blood red'  SG - Pot (Submersed) ",
+    "rate": 120.0,
+    "minQty": 1
+  },
+  {
+    "code": "C117P",
+    "scientificName": "Bacopa salzmanii SG. - Pot ",
+    "rate": 120.0,
+    "minQty": 1
+  },
+  {
+    "code": "D53",
+    "scientificName": "Aglaonema simplex (Terrarium plant) ",
+    "rate": 150.0,
+    "minQty": 1
+  },
+  {
+    "code": "D53B",
+    "scientificName": "Aglaonema simplex  [Bulk 10 pack]",
+    "rate": 900.0,
+    "minQty": 1
+  },
+  {
+    "code": "D4",
+    "scientificName": "Aponogeton undulates -Small / Medium size",
+    "rate": 9.0,
+    "minQty": 10
+  },
+  {
+    "code": "D5",
+    "scientificName": "Aponogeton undulates -Big size",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D6",
+    "scientificName": "Blyxa aubertii",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D6B",
+    "scientificName": "Blyxa aubertii [Bulk 100 pack]",
+    "rate": 1050.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D50",
+    "scientificName": "Cryptocoryne cognatoides ",
+    "rate": 30.0,
+    "minQty": 10
+  },
+  {
+    "code": "D57",
+    "scientificName": "Cryptocoryne parva",
+    "rate": 22.5,
+    "minQty": 10
+  },
+  {
+    "code": "D57B",
+    "scientificName": "Cryptocoryne parva [Bulk 100 pack]",
+    "rate": 1800.0,
+    "minQty": 1
+  },
+  {
+    "code": "D10",
+    "scientificName": "Cryptocoryne pontederiifolia",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D10B",
+    "scientificName": "Cryptocoryne pontederiifolia [Bulk 100 pack]",
+    "rate": 1200.0,
+    "minQty": 1
+  },
+  {
+    "code": "D61",
+    "scientificName": "Cryptocoryne retrospiralis",
+    "rate": 12.0,
+    "minQty": 20
+  },
+  {
+    "code": "D62",
+    "scientificName": "Cryptocoryne spiralis \"broad leaf\"",
+    "rate": 12.0,
+    "minQty": 20
+  },
+  {
+    "code": "D59",
+    "scientificName": "Cryptocoryne spiralis \"tiger\"",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "D8",
+    "scientificName": "Cryptocoryne spiralis 'green'",
+    "rate": 12.0,
+    "minQty": 20
+  },
+  {
+    "code": "D8P",
+    "scientificName": "Cryptocoryne spiralis 'green' - Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D8PB",
+    "scientificName": "Cryptocoryne spiralis 'green'  [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "D9",
+    "scientificName": "Cryptocoryne spiralis 'Red'",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D9B",
+    "scientificName": "Cryptocoryne spiralis 'Red' [Bulk 100 pack]",
+    "rate": 1200.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D9P",
+    "scientificName": "Cryptocoryne spiralis 'Red'  - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D9PB",
+    "scientificName": "Cryptocoryne spiralis -Red [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "D11",
+    "scientificName": "Cryptocoryne wendtii",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D58",
+    "scientificName": "Cryptocoryne wendtii “tropica” ",
+    "rate": 22.5,
+    "minQty": 10
+  },
+  {
+    "code": "D58B",
+    "scientificName": "Cryptocoryne wendtii “tropica” [Bulk 100 pack]",
+    "rate": 1800.0,
+    "minQty": 1
+  },
+  {
+    "code": "D7",
+    "scientificName": "Cyeprus helferi",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D22",
+    "scientificName": "Echinodorus ‘ozelot’  -Small",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "D24",
+    "scientificName": "Echinodorus ‘ozelot’ -Big",
+    "rate": 30.0,
+    "minQty": 3
+  },
+  {
+    "code": "D23",
+    "scientificName": "Echinodorus ‘ozelot’ -Medium",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D15",
+    "scientificName": "Echinodorus amazonicus -Small",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "D15B",
+    "scientificName": "Echinodorus amazonicus -Small [Bulk 100 pack]",
+    "rate": 262.5,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D16",
+    "scientificName": "Echinodorus amazonicus -Medium",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "D16B",
+    "scientificName": "Echinodorus amazonicus -Medium [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D17",
+    "scientificName": "Echinodorus amazonicus -Big",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "D17B",
+    "scientificName": "Echinodorus amazonicus -Big [Bulk 100 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D25",
+    "scientificName": "Echinodorus argentinensis -Small",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "D26",
+    "scientificName": "Echinodorus argentinensis -Medium",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "D26B",
+    "scientificName": "Echinodorus argentinensis (M) [Bulk 100 pack]",
+    "rate": 375.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D26P",
+    "scientificName": "Echinodorus argentinensis - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D26PB",
+    "scientificName": "Echinodorus argentinensis - [Bulk 10 Pot]",
+    "rate": 600.0,
+    "minQty": 3
+  },
+  {
+    "code": "D12",
+    "scientificName": "Echinodorus cordifolius (M) ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "D14",
+    "scientificName": "Echinodorus cordifolius marble queen -Green",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "D13",
+    "scientificName": "Echinodorus cordifolius marble queen -Yellow",
+    "rate": 45.0,
+    "minQty": 3
+  },
+  {
+    "code": "D18",
+    "scientificName": "Echinodorus major",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D18B",
+    "scientificName": "Echinodorus major [Bulk 10 pack]",
+    "rate": 450.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D18B2",
+    "scientificName": "Echinodorus major [Bulk 100 pack]",
+    "rate": 1800.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D18P",
+    "scientificName": "Echinodorus major -Pot",
+    "rate": 75.0,
+    "minQty": "3 pots"
+  },
+  {
+    "code": "D18PB",
+    "scientificName": "Echinodorus major [Bulk 10 pots]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D18X",
+    "scientificName": "Echinodorus major -'XL size' (Loose) ",
+    "rate": 150.0,
+    "minQty": 3
+  },
+  {
+    "code": "D18XB",
+    "scientificName": "Echinodorus major -'XL size' [Bulk 10 pack].",
+    "rate": 1200.0,
+    "minQty": 1
+  },
+  {
+    "code": "D21",
+    "scientificName": "Echinodorus palaefolius",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "D20",
+    "scientificName": "Echinodorus parvifloris ",
+    "rate": 7.5,
+    "minQty": 10
+  },
+  {
+    "code": "D20B",
+    "scientificName": "Echinodorus parvifloris [Bulk 100 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D64",
+    "scientificName": "Echinodorus parviflorus \"Tropica\"",
+    "rate": 24.0,
+    "minQty": 10
+  },
+  {
+    "code": "D64P",
+    "scientificName": "Echinodorus parviflorus 'Tropica'  Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D64PB",
+    "scientificName": "Echinodorus parviflorus 'Tropica' Pot [Bulk 10 pack]",
+    "rate": 600.0,
+    "minQty": 1
+  },
+  {
+    "code": "D49",
+    "scientificName": "Echinodorus rose",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D49B",
+    "scientificName": "Echinodorus rose [Bulk 10 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D19",
+    "scientificName": "Echinodorus rubin",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D19B",
+    "scientificName": "Echinodorus rubin [Bulk 10 pack]",
+    "rate": 600.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D56",
+    "scientificName": "Echinodorus ‘fancy curl’ - Loose",
+    "rate": 60.0,
+    "minQty": 5
+  },
+  {
+    "code": "D56B",
+    "scientificName": "Echinodorus ‘fancy curl’ - [Bulk 10+ pack]",
+    "rate": 45.0,
+    "minQty": 10
+  },
+  {
+    "code": "D56P",
+    "scientificName": "Echinodorus ‘fancy curl’ - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D67",
+    "scientificName": "Echinodorus Big Bear- Loose",
+    "rate": 60.0,
+    "minQty": 5
+  },
+  {
+    "code": "D67B",
+    "scientificName": "Echinodorus Big Bear - [Bulk 10+ Nos pack]",
+    "rate": 45.0,
+    "minQty": 10
+  },
+  {
+    "code": "D67P",
+    "scientificName": "Echinodorus Big Bear -  Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D55",
+    "scientificName": "Echinodorus 'Joyo Red' - Loose",
+    "rate": 60.0,
+    "minQty": 5
+  },
+  {
+    "code": "D55B",
+    "scientificName": "Echinodorus 'Joyo Red' - [Bulk 10+ Nos pack]",
+    "rate": 45.0,
+    "minQty": 10
+  },
+  {
+    "code": "D55P",
+    "scientificName": "Echinodorus 'Joyo Red' - Pot",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D28",
+    "scientificName": "Eleocharis vivipara",
+    "rate": 1.5,
+    "minQty": 50
+  },
+  {
+    "code": "D30",
+    "scientificName": "Lagnendra meeboldii ‘Bleeding heart’ - Loose Plants",
+    "rate": 60.0,
+    "minQty": 3
+  },
+  {
+    "code": "D30B",
+    "scientificName": "Lagnendra meeboldii ‘Bleeding heart’ - Loose [Bulk 10 pack] ",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "D30P",
+    "scientificName": "Lagnendra meeboldii ‘Bleeding heart’ Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "D30PB",
+    "scientificName": "Lagnendra meeboldii ‘Bleeding heart’ Pot [Bulk 10 pack] ",
+    "rate": 900.0,
+    "minQty": 1
+  },
+  {
+    "code": "D29",
+    "scientificName": "Lagenandra meeboldii -Green",
+    "rate": 45.0,
+    "minQty": 3
+  },
+  {
+    "code": "D29B",
+    "scientificName": "Lagenandra meeboldii -Green [Bulk 10 pack]",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D51",
+    "scientificName": "Lagenandra nairii 'Compact'- Loose Plants",
+    "rate": 60.0,
+    "minQty": 3
+  },
+  {
+    "code": "D51B",
+    "scientificName": "Lagenandra nairii 'Compact'- Loose [Bulk 10 pack] ",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "D51P",
+    "scientificName": "Lagenandra nairii 'Compact' - Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "D51PB",
+    "scientificName": "Lagenandra nairii 'Compact' - Pot [Bulk 10 pack] ",
+    "rate": 900.0,
+    "minQty": 1
+  },
+  {
+    "code": "D31",
+    "scientificName": "Lagenandra ovata",
+    "rate": 90.0,
+    "minQty": 1
+  },
+  {
+    "code": "D66",
+    "scientificName": "Lagenandra 'Tenkasi' -Loose plant",
+    "rate": 60.0,
+    "minQty": 3
+  },
+  {
+    "code": "D66B",
+    "scientificName": "Lagenandra 'Tenkasi' -Loose  [Bulk 10+ pack] ",
+    "rate": 45.0,
+    "minQty": 10
+  },
+  {
+    "code": "D66P",
+    "scientificName": "Lagenandra 'Tenkasi' - Pot",
+    "rate": 120.0,
+    "minQty": 3
+  },
+  {
+    "code": "D66PB",
+    "scientificName": "Lagenandra 'Tenkasi' -[Bulk 10+ Pot] ",
+    "rate": 90.0,
+    "minQty": 10
+  },
+  {
+    "code": "D32",
+    "scientificName": "Lagenandra toxicaria -green (Medium)",
+    "rate": 45.0,
+    "minQty": 3
+  },
+  {
+    "code": "D32B",
+    "scientificName": "Lagenandra toxicaria -green [Bulk 10 pack].",
+    "rate": 300.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D33",
+    "scientificName": "Lagenandra toxicaria \"giant\"",
+    "rate": 60.0,
+    "minQty": 3
+  },
+  {
+    "code": "D34",
+    "scientificName": "Nuphar japonica (Green) ",
+    "rate": 120.0,
+    "minQty": 1
+  },
+  {
+    "code": "D34B",
+    "scientificName": "Nuphar japonica (Green) [Bulk 10 pack] ",
+    "rate": 900.0,
+    "minQty": 1
+  },
+  {
+    "code": "D37",
+    "scientificName": "Nymphaea sp. (Red lilly) -Big size",
+    "rate": 45.0,
+    "minQty": 5
+  },
+  {
+    "code": "D36",
+    "scientificName": "Nymphaea sp. (Red lilly) -Medium",
+    "rate": 22.5,
+    "minQty": 10
+  },
+  {
+    "code": "D35",
+    "scientificName": "Nymphaea sp. (Red lilly) -Small size",
+    "rate": 15.0,
+    "minQty": 10
+  },
+  {
+    "code": "D38",
+    "scientificName": "Nymphaea sp. Leopard",
+    "rate": 45.0,
+    "minQty": 5
+  },
+  {
+    "code": "D63",
+    "scientificName": "Nymphoides taiwan -Loose",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "D63P",
+    "scientificName": "Nymphoides taiwan -(Submersed) -Pot ",
+    "rate": 75.0,
+    "minQty": 3
+  },
+  {
+    "code": "D39",
+    "scientificName": "Sagittaria sp. Giant -Emersed",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "D39S",
+    "scientificName": "Sagittaria sp. giant -Submersed",
+    "rate": 6.0,
+    "minQty": 25
+  },
+  {
+    "code": "D40",
+    "scientificName": "Sagittaria sp. narrow leaf",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "D42",
+    "scientificName": "Vallisnaria spiralis ",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "D48",
+    "scientificName": "Vallisneria \"mini twister\"",
+    "rate": 9.0,
+    "minQty": 25
+  },
+  {
+    "code": "D48B",
+    "scientificName": "Vallisneria \"mini twister\" [Bulk 100 pack]",
+    "rate": 750.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D41",
+    "scientificName": "Vallisneria americana 'Gigantea'",
+    "rate": 9.0,
+    "minQty": 25
+  },
+  {
+    "code": "D41B",
+    "scientificName": "Vallisneria americana 'Gigantea' [Bulk 100 pack]",
+    "rate": 750.0,
+    "minQty": "1 bulk"
+  },
+  {
+    "code": "D27",
+    "scientificName": "Vallisneria nana",
+    "rate": 3.0,
+    "minQty": 25
+  },
+  {
+    "code": "FP1",
+    "scientificName": "Azolla caroliniana",
+    "rate": 75.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "JR8",
+    "scientificName": "Limnobium laevigatum (Floating)",
+    "rate": 18.0,
+    "minQty": 10
+  },
+  {
+    "code": "C77",
+    "scientificName": "Ludwigia sedioides (Floating) ",
+    "rate": 4.5,
+    "minQty": 25
+  },
+  {
+    "code": "FP4",
+    "scientificName": "Phyllanthus fluitans -Bunch",
+    "rate": 90.0,
+    "minQty": 3
+  },
+  {
+    "code": "FP3",
+    "scientificName": "Pistia stratiotes",
+    "rate": 9.0,
+    "minQty": 10
+  },
+  {
+    "code": "FP2",
+    "scientificName": "Salvinia natans",
+    "rate": 45.0,
+    "minQty": "1 bunch"
+  },
+  {
+    "code": "FP6",
+    "scientificName": "Eichornia Crassipies ",
+    "rate": 12.0,
+    "minQty": 10
+  },
+  {
+    "code": "FP5",
+    "scientificName": "Hydrocleys nymphoides",
+    "rate": 18.0,
+    "minQty": 5
+  },
+  {
+    "code": "DB4A",
+    "scientificName": "Nymphiya  capensis -Blue Flower (Green leaves)",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB4B",
+    "scientificName": "Nymphiya  capensis -Blue Flower (Variegated leaves)",
+    "rate": 240.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB6",
+    "scientificName": "Nymphiya  capensis -Pink ",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB1A",
+    "scientificName": "Nymphaea capensis ‘White Flower’ (Green leaves)",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB1B",
+    "scientificName": "Nymphaea capensis ‘White Flower’ (variegated  leaves)",
+    "rate": 240.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB3",
+    "scientificName": "Nymphaea 'Dauben' (Light blue flower.)",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB5",
+    "scientificName": "Nymphaea 'Panama Pacific'  (Violet Flower) ",
+    "rate": 300.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB13",
+    "scientificName": "Nymphaea 'Peach Blow'",
+    "rate": 450.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB8",
+    "scientificName": "Nymphaea  Islamorada",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB7",
+    "scientificName": "Nymphaea 'Colorado' (Hardy)",
+    "rate": 300.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB14",
+    "scientificName": "Nymphaea 'Wanvisa' (Hardy)",
+    "rate": 300.0,
+    "minQty": 1
+  },
+  {
+    "code": "DB9",
+    "scientificName": "Nymphaea ‘Marliacea Chromatella’ (Hardy)",
+    "rate": 300.0,
+    "minQty": 1
+  },
+  {
+    "code": "NB3",
+    "scientificName": "Nymphaea pubescens - Pink Flower",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "NB4",
+    "scientificName": "Nymphiya pubescens 'Rubra' - Red flower",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "NB1",
+    "scientificName": "Nymphaea pubescens  - White Big flower ",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "NB2",
+    "scientificName": "Nymphaea pubescens -White small  flower ",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "JR14",
+    "scientificName": "Nelumbo nucifera  -Pink flower (Pink lotus) ",
+    "rate": 180.0,
+    "minQty": 1
+  },
+  {
+    "code": "JR15",
+    "scientificName": "Nelumbo nucifera -White flower (White lotus) ",
+    "rate": 180.0,
+    "minQty": 1
+  }
+]

@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wholesale Product Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #cbd5e1;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  </style>
+</head>
+
+<body class="bg-gradient-to-br from-gray-50 to-white p-4 text-gray-800">
+  <div class="max-w-7xl mx-auto">
+    <div class="mb-6">
+      <h1 class="text-2xl md:text-3xl font-bold text-left text-blue-800">
+        Sreepadma Aqua Flora
+      </h1>
+      <p class="text-gray-600 text-left text-lg">Wholesale Price List</p>
+    </div>
+
+    <div class="mb-4 relative">
+      <input id="searchInput" placeholder="Search by code or name..."
+        class="w-full p-3 pl-10 border rounded shadow-sm focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
+        oninput="renderProducts()" />
+      <svg class="absolute left-3 top-3 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-4.35-4.35M15 11a4 4 0 11-8 0 4 4 0 018 0z"></path>
+      </svg>
+    </div>
+
+    <div class="bg-white rounded shadow overflow-x-auto text-sm max-h-[600px] relative">
+      <table class="min-w-full text-left border border-gray-200 rounded-xl overflow-hidden">
+        <thead class="bg-gray-200 sticky top-0 z-10 bg-white">
+          <tr>
+            <th class="px-2 py-1">Code</th>
+            <th class="px-2 py-1">Scientific Name</th>
+            <th class="px-2 py-1">Rate (₹)</th>
+            <th class="px-2 py-1">Min Qty</th>
+            <th class="px-2 py-1 text-right">Your Qty</th>
+            <th class="px-2 py-1 text-right">Amount (₹)</th>
+          </tr>
+        </thead>
+        <tbody id="product-list" class="divide-y"></tbody>
+        <tfoot class="bg-white sticky bottom-0 z-10 border-t">
+          <tr class="bg-gray-100 font-semibold">
+            <td colspan="5" class="px-2 py-2 text-right">Grand Total:</td>
+            <td class="px-2 py-2 text-right" id="grand-total">₹0.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div class="text-center mt-6">
+      <button onclick="reviewOrder()"
+        class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-2xl text-lg shadow-md hover:scale-105 transition-transform">
+        Review Order
+      </button>
+    </div>
+
+    <div id="review-section"
+      class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 transition-all">
+      <div class="bg-white w-full max-w-2xl p-6 rounded-2xl shadow-xl border border-gray-200">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl md:text-2xl font-semibold">Review Your Order</h2>
+          <button onclick="reviewOrder()" class="text-gray-500 hover:text-gray-700 text-xl">&times;</button>
+        </div>
+        <div id="cart" class="bg-gray-50 p-4 rounded shadow mb-4 max-h-[300px] overflow-y-auto"></div>
+        <div class="flex justify-between items-center mt-4">
+          <p class="text-lg font-semibold">
+            Total: <span id="popup-total">₹0.00</span>
+          </p>
+          <div>
+            <button onclick="clearCart()" class="text-red-600 hover:text-red-800 font-semibold mr-4">
+              Clear Cart
+            </button>
+            <button onclick="reviewOrder()" class="text-blue-600 hover:text-blue-800 font-semibold">
+              Edit
+            </button>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a id="submitBtn" href="#"
+            class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded text-lg shadow-md">Submit via Email</a>
+          <a id="whatsappBtn" href="#"
+            class="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded text-lg ml-2 shadow-md">Submit via
+            WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const products = [
+      {
+        code: "AMP100A",
+        scientificName: "Anubias Pot Combo Offer (Medium) 100 Nos",
+        rate: 13500.0,
+        minQty: "1 Bulk",
+      },
+      {
+        code: "AMP100B",
+        scientificName: "Anubias Pot Combo Offer (Medium) 200 Nos",
+        rate: 24000.0,
+        minQty: "1 Bulk",
+      },
+      {
+        code: "B5PB2",
+        scientificName: "Anubias nana Pot (Medium) (Bulk 100+)",
+        rate: 120.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "B5PB3",
+        scientificName: "Anubias nana Pot (Medium) (Bulk 200+)",
+        rate: 105.0,
+        minQty: "200 Nos",
+      },
+      {
+        code: "B6PB2",
+        scientificName: "Anubias nana 'Gold' Pot(Medium) (Bulk 100+)",
+        rate: 120.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "B6PB3",
+        scientificName: "Anubias nana 'Gold' Pot (Medium) (Bulk 200+)",
+        rate: 90.0,
+        minQty: "200 Nos",
+      },
+      {
+        code: "B18PB2",
+        scientificName: "Anubias barteri var. glabra Pot (Medium) (Bulk 100+)",
+        rate: 120.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "B18PB3",
+        scientificName: "Anubias barteri var. glabra Pot (Medium) (Bulk 200+)",
+        rate: 90.0,
+        minQty: "200 Nos",
+      },
+      {
+        code: "B20PB",
+        scientificName: "Anubias 'Petite' Pot(Medium) (Bulk 100+)",
+        rate: 210.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "B20PB2",
+        scientificName: "Anubias 'Petite' Pot (Medium) (Bulk 200+)",
+        rate: 180.0,
+        minQty: "200 Nos",
+      },
+      {
+        code: "B26PB",
+        scientificName: "Anubias 'Dragon Claw' - Pot (Medium) (Bulk 100+)",
+        rate: 180.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "B26PB2",
+        scientificName: "Anubias 'Dragon Claw' - Pot (Medium) (Bulk 200+)",
+        rate: 150.0,
+        minQty: "200 Nos",
+      },
+      {
+        code: "MXCPB1",
+        scientificName: "Cryptocoryne Pot Combo Offer 10 Nos",
+        rate: 600.0,
+        minQty: "1 Bulk",
+      },
+      {
+        code: "MXCPB2",
+        scientificName: "Cryptocoryne Pot Combo Offer 50 Nos",
+        rate: 2250.0,
+        minQty: "1 Bulk",
+      },
+      {
+        code: "MXCPB3",
+        scientificName: "Cryptocoryne Pot Combo Offer 100 Nos",
+        rate: 3750.0,
+        minQty: "1 Bulk",
+      },
+      {
+        code: "CDB1",
+        scientificName: "Coco Den (Bulk 5+)",
+        rate: 300.0,
+        minQty: "5 Nos",
+      },
+      {
+        code: "CDB",
+        scientificName: "Coco Den (Bulk 10+)",
+        rate: 240.0,
+        minQty: "10 Nos",
+      },
+      {
+        code: "CAB",
+        scientificName: "Coco Arch (Bulk 5+)",
+        rate: 180.0,
+        minQty: "5 Nos",
+      },
+      {
+        code: "CAB2",
+        scientificName: "Coco Arch (Bulk 10+)",
+        rate: 150.0,
+        minQty: "10 nos",
+      },
+      {
+        code: "A49CSB",
+        scientificName: "Bucephalandra on Coco Shell (Buk 5+)",
+        rate: 240.0,
+        minQty: "5 Nos",
+      },
+      {
+        code: "A49CSB2",
+        scientificName: "Bucephalandra on Coco Shell (Bulk 10+)",
+        rate: 210.0,
+        minQty: "10 Nos",
+      },
+      {
+        code: "A49CS",
+        scientificName: "Bucephalandra on Coco Shell",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "CA",
+        scientificName: "Bucephalandra 'Pygmy' on Coco Arch",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "CD",
+        scientificName: "Coco Den",
+        rate: 450.0,
+        minQty: 3,
+      },
+      {
+        code: "B18WB",
+        scientificName: "Anubias barteri var. glabra on Wabi Kusa balls",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "A49WB",
+        scientificName: "Bucephalandra 'Pygmy' on Wabi Kusa mini balls",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "B5WB",
+        scientificName: "Anubias nana on Wabi Kusa balls",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "B6WB",
+        scientificName: "Anubias nana 'Gold' on Wabi Kusa balls",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "PDWS",
+        scientificName: "Plant Décor Wood (Small Size)",
+        rate: 750.0,
+        minQty: 1,
+      },
+      {
+        code: "PDWM",
+        scientificName: "Plant Décor Wood (Medium Size)",
+        rate: 1100.0,
+        minQty: 1,
+      },
+      {
+        code: "B5C",
+        scientificName: "Anubias nana -Cup",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B6C",
+        scientificName: "Anubias nana 'Gold' - Cup",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B20C",
+        scientificName: "Anubias 'Petite' -Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "B21C",
+        scientificName: "Anubias barteri 'Coin Leaf' -Cup",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B18C",
+        scientificName: "Anubias barteri var. glabra -Cup",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B24C",
+        scientificName: "Anubias gracilis (small) - Cup",
+        rate: 120.0,
+        minQty: 3,
+      },
+      {
+        code: "A49C",
+        scientificName: "Bucephalandra 'Pygmy' - Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "D71C",
+        scientificName: "Cryptocoryne axelrodi - Cup",
+        rate: 90.0,
+        minQty: 3,
+      },
+      {
+        code: "D72C",
+        scientificName: "Cryptocoryne lucens - Cup",
+        rate: 90.0,
+        minQty: 3,
+      },
+      {
+        code: "D58C",
+        scientificName: "Cryptocoryne wendtii 'Tropica' - Cup",
+        rate: 90.0,
+        minQty: 3,
+      },
+      {
+        code: "D68C",
+        scientificName: "Cryptocoryne wendtii 'Brown'  - Cup",
+        rate: 90.0,
+        minQty: 3,
+      },
+      {
+        code: "D69C",
+        scientificName: "Cryptocoryne wendtii 'Green'  - Cup",
+        rate: 90.0,
+        minQty: 3,
+      },
+      {
+        code: "D70C",
+        scientificName: "Cryptocoryne wendtii 'Pink'  - Cup",
+        rate: 300.0,
+        minQty: 3,
+      },
+      {
+        code: "B26P",
+        scientificName: "Anubias 'Dragon Claw' - Pot",
+        rate: 360.0,
+        minQty: 3,
+      },
+      {
+        code: "B27P",
+        scientificName: "Anubias Nana 'Long Wavy' -  Pot",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "B3P",
+        scientificName: "Anubias Coffefolia",
+        rate: 350.0,
+        minQty: 3,
+      },
+      {
+        code: "B4",
+        scientificName: "Anubias Lanceolata - Loose",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B25",
+        scientificName: "Anubias 'Butterfly' - Loose/Pot",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "B24SP",
+        scientificName: "Anubias gracilis (small) - Pot",
+        rate: 120.0,
+        minQty: 3,
+      },
+      {
+        code: "B24P",
+        scientificName: "Anubias gracilis (Medium) - Pot",
+        rate: 150.0,
+        minQty: 3,
+      },
+      {
+        code: "B24PB",
+        scientificName: "Anubias gracilis (Medium) - [Bulk 10+ pot]",
+        rate: 120.0,
+        minQty: "10 Nos",
+      },
+      {
+        code: "B5P",
+        scientificName: "Anubias nana Pot (Small Size)",
+        rate: 150.0,
+        minQty: 3,
+      },
+      {
+        code: "B5MP",
+        scientificName: "Anubias nana - Medium Pot",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B6P",
+        scientificName: "Anubias nana 'Gold'  - Pot (Small Size)",
+        rate: 150.0,
+        minQty: 3,
+      },
+      {
+        code: "B6MP",
+        scientificName: "Anubias nana 'Gold'  - Medium Pot",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B18P",
+        scientificName: "Anubias barteri var. glabra - Pot (Small Size)",
+        rate: 150.0,
+        minQty: 3,
+      },
+      {
+        code: "B18MP",
+        scientificName: "Anubias barteri var. glabra - Medium Pot",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B21P",
+        scientificName: "Anubias barteri 'Coin Leaf' - Pot (Small Size)",
+        rate: 150.0,
+        minQty: 3,
+      },
+      {
+        code: "B21MP",
+        scientificName: "Anubias barteri 'Coin Leaf' - Medium Pot",
+        rate: 180.0,
+        minQty: 3,
+      },
+      {
+        code: "B20P",
+        scientificName: "Anubias 'Petite' - Pot",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "A49P",
+        scientificName: "Bucephalandra 'Pygmy' - Pot",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "MIXP03",
+        scientificName: "Assorted Plants Pot",
+        rate: 75.0,
+        minQty: "3 Nos",
+      },
+      {
+        code: "MIXP03B",
+        scientificName: "Assorted Plants Pot [Bulk 50+]",
+        rate: 51.0,
+        minQty: "50 Nos",
+      },
+      {
+        code: "MIXP03B1",
+        scientificName: "Assorted Plants Pot [Bulk 100+]",
+        rate: 42.0,
+        minQty: "100 Nos",
+      },
+      {
+        code: "D53TC",
+        scientificName: "Aglaonima Simplex - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C86TC",
+        scientificName: "Alternanthera reineckii 'mini' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C87TC",
+        scientificName: "Alternanthera reineckii 'Rosanervig' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C7TC",
+        scientificName: "Bacopa monnieri 'Green' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C125TC",
+        scientificName: "Bacopa monnieri 'Platinum' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C117TC",
+        scientificName: "Bacopa salzmannii 'Purple' var SG. - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A49TC",
+        scientificName: "Bucephalandra 'Pygmy' - Tissue Culture Cup",
+        rate: 600.0,
+        minQty: 3,
+      },
+      {
+        code: "A51TC",
+        scientificName: "Bucephalandra sp. 'White' - Tissue Culture Cup",
+        rate: 600.0,
+        minQty: 3,
+      },
+      {
+        code: "D71TC",
+        scientificName: "Cryptocoryne axelrodi - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D80TC",
+        scientificName: "Cryptocoryne beckettii - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D85TC",
+        scientificName: "Cryptocoryne crispatula var. 'tonkinensis' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D72TC",
+        scientificName: "Cryptocoryne lucens - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D81TC ",
+        scientificName: "Cryptocoryne Nurii - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D57TC",
+        scientificName: "Cryptocoryne parva - Tissue Culture Cup",
+        rate: 210.0,
+        minQty: 3,
+      },
+      {
+        code: "D10TC",
+        scientificName: "Cryptocoryne pontederiifolia - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D75TC",
+        scientificName: "Cryptocoryne Pygmi - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D83TC",
+        scientificName: "Cryptocoryne sivadasanii - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D82TC",
+        scientificName: "Cryptocoryne spiralis 'jwala' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D9TC",
+        scientificName: "Cryptocoryne spiralis 'Tiger'- Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D11TC",
+        scientificName: "Cryptocoryne wendtii - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D68TC",
+        scientificName: "Cryptocoryne wendtii 'Brown'  - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D77TC",
+        scientificName: "Cryptocoryne Wendtii Gecko - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D69TC",
+        scientificName: "Cryptocoryne wendtii 'Green'  - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D76TC",
+        scientificName: "Cryptocoryne wendtii 'long' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D70TC",
+        scientificName: "Cryptocoryne wendtii 'Pink'  - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D79TC",
+        scientificName: "Cryptocoryne wendtii 'Sreepadma Sindoor'  - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "D58TC",
+        scientificName: "Cryptocoryne wendtii 'Tropica'  - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D86TC",
+        scientificName: "Cryptocoryne willisii 'Narrow' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C115TC",
+        scientificName: "Cuphea anagalloidea - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "E2TC",
+        scientificName: "Drosera adelae - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "E1TC",
+        scientificName: "Drosera spatulata - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D56TC",
+        scientificName: "Echinodorus 'Fancy twist' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A53TC",
+        scientificName: "Eleocharis acicularis - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D74TC",
+        scientificName: "Eleocharis montevidensis - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A8TC",
+        scientificName: "Eleocharis Parvula - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "D28TC",
+        scientificName: "Eleocharis vivipara - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A41TC",
+        scientificName: "Eriocaulon Quinquangulare - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "A12TC",
+        scientificName: "Glossostigma elatinoides - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A58TC",
+        scientificName: "Glossostigma elatinoides 'Platinum' - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "C121TC",
+        scientificName: "Gratiola viscidula - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A4TC",
+        scientificName: "Helanthium bolivianum Quadricostatus - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A5TC",
+        scientificName: "Helanthium tenellum 'Broad leaf' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "JR1TC",
+        scientificName: "Helanthium tenellum 'Micro' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A15TC",
+        scientificName: "Hemianthus callitrichoides 'Cuba' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A54TC",
+        scientificName: "Hemianthus callitrichoides 'Cuba White' - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "A17TC",
+        scientificName: "Hemianthus micranthemoides - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A60TC",
+        scientificName: "Hemianthus micranthemoides 'White' - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "JR5TC",
+        scientificName: "Hydrocotyle tripartita  - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A52TC",
+        scientificName: "Hydrocotyle tripartita 'Mini' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C124TC",
+        scientificName: "Hygrophila Lancea 'Araguaia' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C110TC",
+        scientificName: "Hygrophila pinnatifida 'Roseus' - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "C31TC",
+        scientificName: "Hygrophila pinnatifida 'UK' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C123TC",
+        scientificName: "Hygrophila sp. chai - Tissue Culture Cup",
+        rate: 240.0,
+        minQty: 3,
+      },
+      {
+        code: "D78TC",
+        scientificName: "Lagenandra keralensis - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A21TC",
+        scientificName: "Lilaeopsis brasiliensis - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "JR8TC",
+        scientificName: "Limnobium laevigatum - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C35TC",
+        scientificName: "Limnophila aquatica sp. 'Dwarf' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C108TC",
+        scientificName: "Limnophila aromatica 'Mini' - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "A40TC",
+        scientificName: "Lobelia cardinalis - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C79TC",
+        scientificName: "Ludwigia repens - Tissue Culture Cup",
+        rate: 165.0,
+        minQty: 3,
+      },
+      {
+        code: "C48TC",
+        scientificName: "Mayaca fluvitalis - Tissue Culture Cup",
+        rate: 165.0
